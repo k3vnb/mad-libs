@@ -1,0 +1,8 @@
+#story {
+  display: none;
+}
+h1 {
+  text-align: center;
+  color: darkgrey;
+  text-shadow: 2px 2px 4px black;
+}

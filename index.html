@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/master.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/master.js"></script>
+    <title>Mad Libs</title>
+  </head>
+  <body>
+    <form class="container well">
+      <h1>Mad Libbin</h1>
+      <div class="form-group">
+        <label for="name1">Your Name</label>
+        <input class="form-control" id="name1" placeholder="Your name goes here.">
+      </div>
+      <div class="form-group">
+        <label for="name2">Your Pet's Name</label>
+        <input class="form-control" id="name2" placeholder="Your pet's name goes here.">
+      </div>
+      <div class="form-group">
+        <label for="exclamation">Something Grandma would say when angry</label>
+        <input class="form-control" id="exclamation" placeholder="Exclamation">
+      </div>
+      <div class="form-group">
+        <label for="animal">Animal</label>
+        <input class="form-control" id="animal" placeholder="Animal">
+      </div>
+      <div class="form-group">
+        <label for="verb">Verb</label>
+        <input class="form-control" id="verb" placeholder="Verb">
+      </div>
+      <div class="form-group">
+        <label for="noun">Noun</label>
+        <input class="form-control" id="noun" placeholder="Noun">
+      </div>
+      <button type="submit" id="submit-form" class="btn btn-info btn-lg btn-block">Submit</button>
+    </form>
+    <div class="container well"id="story">
+      <h1>A fantastical adventure</h1>
+      <p>One day, <span class="name1"></span> and <span class="name2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="name1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="name1"></span> and <span class="name2"></span> gave each other a giant <span class="noun"></span>.</p>
+    </div>
+  </body>
+</html>
